@@ -60,9 +60,12 @@ form {
   padding: 2vw;
 }
 input {
+  color: #ffffff;
   padding: 1vw;
-  border: solid 1px black;
+  border: solid 1px #743d3d;
   border-radius: 10px;
+  background-color: rgba(247, 139, 83, 0.8);
+  margin: 0.1vw;
 }
 a {
   color: yellow;
