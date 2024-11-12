@@ -1,15 +1,25 @@
 body {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/138/112/original/empty-wooden-dock-lake-breathtaking-sunset-cool-background.jpg?1723151226");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/150/106/original/empty-wooden-dock-lake-breathtaking-sunset-cool-background_%281%29.jpg?1731406413");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
+  /*background-color: rgb(255, 231, 202);*/
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+  text-align: center;
+  width: 100%;
+  font-family: "Playfair Display", serif;
+  height: 2vw;
+  padding: 0.5vw;
 }
 h1 {
   color: white;
-  font-size: 1.6rem;
-  margin-top: 3vw;
-  padding-bottom: 1vw;
-  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 1.5;
+  text-shadow: 5px 7px 6px rgba(116, 61, 61, 1);
+  margin-top: 1%;
 }
 .parent {
   position: relative;
@@ -18,7 +28,7 @@ h1 {
 }
 .grid-container {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   max-width: 100vh;
   transform: translate(-50%, -50%);
@@ -26,12 +36,24 @@ h1 {
   grid-template-rows: 2fr 1fr;
   grid-template-columns: 1fr;
 }
-p {
+em {
   color: white;
-  font-size: 1.6rem;
-  margin-top: -1vw;
+  -webkit-text-stroke: 1px rgba(247, 139, 83, 0.8);
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: 500;
+  margin-top: -2vw;
   padding-bottom: 1vw;
   text-align: center;
+}
+.quote{
+  margin-top: 10%;
+  font-family: "Lobster", sans-serif;
+  line-height: 1.5;
+  word-spacing: 8px;
+  font-size: 2.1rem;
+  text-align: center;
+
 }
 .item1 {
   color: #ffffff;
@@ -67,15 +89,17 @@ form {
   padding: 2vw;
 }
 input {
-  border: solid 1px #743d3d;
+  border: solid 1px rgb(116, 61, 61);
   border-radius: 10px;
   background-color: rgba(247, 139, 83, 0.8);
   color: #ffffff;
   padding: 1vw;
+  font-size: 1rem;
   margin: 0.1vw;
 }
 .keyword {
- width: 50%;
+ width: 70%;
+ font-size: 1rem;;
 }
 
 a {
