@@ -9,16 +9,26 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
+    <header>
+      <h1>AI Motivational Quote Generator</h1>
+    </header>
     <div class="parent">
       <div class="grid-container">
         <div class="item item1">
-          <p><em>The daily motivation you were looking for...</em></p>
+          <p>
+            <em>The daily motivation you were looking for...</em>
+          </p>
           "El éxito es la suma de pequeños esfuerzos repetidos día tras día." —
           Robert Collier
         </div>
         <div class="item item2">
           <form>
-            <input type="search" placeholder="Introduce a keyword" />
+            <input class="keyword"  
+                    type="search" 
+                    placeholder="What kind of boost do you need?"
+                    autofocus
+                    autocomplete="off" 
+            />
             <input type="submit" />
           </form>
         </div>

@@ -4,6 +4,13 @@ body {
   background-repeat: no-repeat;
   height: 100%;
 }
+h1 {
+  color: white;
+  font-size: 1.6rem;
+  margin-top: 3vw;
+  padding-bottom: 1vw;
+  text-align: center;
+}
 .parent {
   position: relative;
   height: 100vh;
@@ -11,7 +18,7 @@ body {
 }
 .grid-container {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   max-width: 100vh;
   transform: translate(-50%, -50%);
@@ -60,13 +67,17 @@ form {
   padding: 2vw;
 }
 input {
-  color: #ffffff;
-  padding: 1vw;
   border: solid 1px #743d3d;
   border-radius: 10px;
   background-color: rgba(247, 139, 83, 0.8);
+  color: #ffffff;
+  padding: 1vw;
   margin: 0.1vw;
 }
+.keyword {
+ width: 50%;
+}
+
 a {
   color: yellow;
 }
