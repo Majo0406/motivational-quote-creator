@@ -1,0 +1,3 @@
+[build]
+command = ""  # Esto le dice a Netlify que no hay comando de construcción
+publish = "." # Esto le indica a Netlify que publique desde la carpeta principal
