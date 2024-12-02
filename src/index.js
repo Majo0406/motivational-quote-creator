@@ -23,7 +23,7 @@ function generateQuote (event) {
     emElement.classList.add("hidden");
 
     let quoteElement = document.querySelector("#quote");
-    quoteElement.innerHTML = `Your boost for ${instructionsInput.value} is coming...`
+    quoteElement.innerHTML = `<div class="blink">Your boost for ${instructionsInput.value} is coming...</div>`
         axios.get(apiURL).then(displayQuote);    
 }
 
